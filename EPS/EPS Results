@@ -1,0 +1,13 @@
+#EPS section completed in MATLAB
+
+Check 1 Results (Voltage = 25V, Current = 10A, Time = 3600s)
+The power output is 250 Watts
+You have 900 Kilojoules available for battery charging
+
+Check 2 Results (Voltage = 30V, Current = 8A, Time = 1800s)
+The power output is 224 Watts
+You have 403.2 Kilojoules available for battery charging
+
+Check 3 Results (Voltage = 15V, Current = 12A, Time = 7200s)
+The power output is 150 Watts
+You have 1.08 Megajoules available for battery charging
