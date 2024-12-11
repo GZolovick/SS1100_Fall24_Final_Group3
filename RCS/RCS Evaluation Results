@@ -11,3 +11,9 @@ Velocity change is 0.36 m/s
 #Firing a Thruster for 10 seconds with flow rate of 0.05 kg/s and exhaust velocity of 2000 m/s
 Thruster 3 is within limits
 Velocity change is 2 m/s
+
+##Check Plus Result
+Thruster 1 is within limits
+Thruster 2 is within limits
+Thruster 3 is within limits
+Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction
