@@ -33,11 +33,11 @@ def write_orientation_to_file(file_path, orientation):
 
 def main(input_tuple):
     starting_tuple = read_orientation_from_file(file_name)
-    print(f"Current orientation is: x {starting_tuple[0]}, y {starting_tuple[1]}, z {starting_tuple[2]}")
+    print(f"\nCurrent orientation is: x {starting_tuple[0]}, y {starting_tuple[1]}, z {starting_tuple[2]}")
     corrections = (input_tuple[0],input_tuple[1],input_tuple[2])
     result = apply_corrections(starting_tuple, corrections)
     write_orientation_to_file(file_name, result)
-    print(f"New orientation is: x {result[0]}, y {result[1]}, z {result[2]}")
+    print(f"\nNew orientation is: x {result[0]}, y {result[1]}, z {result[2]}")
 
 if __name__ == "__main__":
     read_orientation_from_file(file_name)
