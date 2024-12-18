@@ -117,3 +117,17 @@ print(parse_command('PL1:CMD03:1'))
 print(parse_command('PL2:CMD02:-5'))
 print(parse_command('CDH:CMD02:1'))
 print(parse_command('CDH:CMD03:1'))
+
+#outputs should be:
+#('Electrical Power Subsystem', 'BATTERY_CHARGE_MODE', 0)
+#Error processing command 'ACS:CMD04:-1': Parameter must be one of {0, 1}
+#None
+#Error processing command 'RCS:INVALID:0': Invalid command format. Expected format: SUBSYSTEM:COMMAND:PARAMETER
+#None
+#('Telemetry, Tracking, & Command', 'RECEIVE_MODE', 0)
+#('Thermal Control Subsystem', 'HEATER_OFF', 0)
+#('Payload System 1', 'CALIBRATE_SENSOR', 1)
+#Error processing command 'PL2:CMD02:-5': Parameter must be one of {0, 1}
+#None
+#('Command & Data Handling', 'TRANSMIT_LOW', 1)
+#('Command & Data Handling', 'RECEIVE_MODE', 1)"
