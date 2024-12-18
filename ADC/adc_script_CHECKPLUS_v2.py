@@ -3,7 +3,7 @@
 '''
 Version 2 of adc_script_CHECKPLUS modifies the original version based off
 ChatGPT 4o inputs on creating a callable change_orientation function rather
-than adjusting the desired_orientation values manually the in-line code of v1.
+than adjusting the desired_orientation values manually with in-line code of v1.
 '''
 
 # %% Import Libraries and Scripts----------------------------------------------
