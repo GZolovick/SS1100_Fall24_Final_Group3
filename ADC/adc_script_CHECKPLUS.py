@@ -32,7 +32,7 @@ while abs(magnitude_x) > 0.1 or abs(magnitude_y) > 0.1 or abs(magnitude_z) > 0.1
                              desired_orientation)
     
     # display required orientation adjustments
-    print(f"\nThe required orientation change is: x {required_magnitude[0]}, y {required_magnitude[1]}, z {required_magnitude[2]}")
+    print(f"\nRequired orientation change is: x {required_magnitude[0]}, y {required_magnitude[1]}, z {required_magnitude[2]}")
     
     # run rotate_me for each orientation change command
     rotate_me.main((required_magnitude[0],required_magnitude[1],required_magnitude[2]))
