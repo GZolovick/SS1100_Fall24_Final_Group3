@@ -1,9 +1,9 @@
-# %% Import Libraries and Scripts
+# %% Import Libraries and Scripts-----------------------------------------------------------------------------------
 
 import rotate_me
 import calculate_rotation # Check-Plus Requirement
 
-# %% Define Maneuver Variables
+# %% Define Maneuver Variables--------------------------------------------------------------------------------------
 
 # define current orientation file name
 file_name = "current_state.txt"
@@ -11,7 +11,7 @@ file_name = "current_state.txt"
 # define desired orientation
 desired_orientation = (3,30,300)
 
-# %% Run Calculation and Rotation Scripts
+# %% Run Calculation and Rotation Scripts---------------------------------------------------------------------------
 
 # setup parameters to run both calculation and rotation scripts until required
 # magnitiude adjustments are within 0.1 of each x-y-z desired_orientation value
