@@ -1,4 +1,4 @@
-# %% Script Purpose
+# %% Script Purpose-------------------------------------------------------------------------------------------------
 
 '''
 This script will calculate the x-y-z magnitude differences between
@@ -10,14 +10,14 @@ Input Variables:
     Input-2: three-item tuple (x-y-z) values of desired orientation
 '''
 
-# %% Determine Current Orientation
+# %% Determine Current Orientation-----------------------------------------------------------------------------------
 def read_orientation_from_file(file_path):                     # based off provided rotate_me script
         with open(file_path, 'r') as file:
             line = file.readline().strip()
             orientation = tuple(map(float, line.split(','))) 
             return orientation
         
-# %% Calculate X-Y-Z Magnitude Differences
+# %% Calculate X-Y-Z Magnitude Differences---------------------------------------------------------------------------
 def main(file_path, desired_orientation):
     
     # define current orientation values based on input text file
@@ -32,7 +32,7 @@ def main(file_path, desired_orientation):
     magnitudes = (magnitude_x,magnitude_y,magnitude_z)
     return magnitudes
 
-# %%
+# %%-----------------------------------------------------------------------------------------------------------------
 #
 # END
 #
