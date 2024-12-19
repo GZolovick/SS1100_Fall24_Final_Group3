@@ -116,13 +116,17 @@ Image saved in payload folder titled Updated_Payload_image.jpg
 # Questions for Writeup:
 
 ## Q1: Experience collaborating:
+Wright: It was very helpful to be able to distribute the load of each section, and the range of experience is helpful but I feel abashed about my lack of experience. 
 
 ## Q2: Most Challanging Section:
+Wright: Payload seems to have taken up all group members bandwidth trying to convert the data to meet the stipulations. 
 
 ## Q3: Generative AI:
 ACS: after making a functioning code framework that met project requirements, ChatGPT 4o suggestions were used to create a singular function that could be used as a console command to change the satellite orientation rather than making in-line changes to code itself. Full details and prompt given to ChatGPT notated at the beginning of adc_script_CHECKPLUS_v2.
 
 TCS: After writing the code, trying to run it, and getting several errors, I put it into ChatGPT with the prompt “Find the errors in this Python code”. I had to input the code into ChatGPT several times with the same prompt due to it not finding all the errors the first time or creating new errors. Once the code was working, I would put in back into ChatGPT to fix the errors I made while attempting to add more stuff to the code. 
+
+C&DH: After trying to put the information into a format I could read and coming up with constant errors, Copilot helped organize the information and give the required and run through a few times to get to something that could work. I tried to think of different things a person may make mistakes on and added those stipulations in, like casing or mispelling. It expedited the process of trial and error to an astounding level. 
 
 ## Q4: Other Resources Used: 
 TCS: I used Stack Overflow to learn how to create floats and to make sure I was doing the while loop correctly. I also used it to correct the errors in my f" string. 
