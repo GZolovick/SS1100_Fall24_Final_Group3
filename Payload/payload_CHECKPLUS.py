@@ -99,7 +99,7 @@ def save_image(image, file_name, folder_location):
         
         # saves image with success message
         image_pil.save(file_path)
-        return("Image saved successfully to:", file_path)
+        print("Image saved successfully to:", file_path)
     
     # returns error message if file not saved
     except Exception as e:
