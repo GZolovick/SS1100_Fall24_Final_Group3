@@ -22,15 +22,19 @@ def dimension_verification(red, green, blue):
 # %% Task-3: Combine RGB Bands-------------------------------------------------
 
 # test if dimensions of inputs are equal, then combines into one RGB image
-def combine_RGB(red, blue, green):
-    if dimension_verification(red, blue, green) == True:
+def combine_RGB(red, green, blue):
+    verification = dimension_verification(red, green, blue)
+    if verification == True:
         RGB_image = np.stack((red, green, blue), axis=2).astype(np.uint8)
         return RGB_image
-
+    else:
+         print("There is a combination or verification error")
 
 '''
 When run, throws the following error:
     "self._normalize_image_array(A)"
+    ** Verification function was not returning a true value, works now.
+    ** Displays a color distorted image of Hermann Hall
 '''
 
 # %% Task-4: Vizualization-----------------------------------------------------
