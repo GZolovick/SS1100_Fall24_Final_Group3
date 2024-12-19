@@ -126,7 +126,7 @@ Staut: Having multiple people work asynchronously was helpful in getting a fresh
 ## Q2: Most Challanging Section:
 Wright: Payload seems to have taken up all group member's bandwidth trying to convert the data to meet the stipulations.
 
-Staut: Concur with payload as the hardest section.
+Staut: Concur with payload as the hardest section. Took me several tries to get a good method, and then still took ChatGPT to help me through error troubleshooting.
 
 ## Q3: Generative AI:
 ACS: after making a functioning code framework that met project requirements, ChatGPT 4o suggestions were used to create a singular function that could be used as a console command to change the satellite orientation rather than making in-line changes to the code itself. Full details and prompt given to ChatGPT notated at the beginning of adc_script_CHECKPLUS_v2.
