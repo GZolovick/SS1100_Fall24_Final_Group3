@@ -34,7 +34,7 @@ def combine_RGB(red, green, blue):
 When run, throws the following error:
     "self._normalize_image_array(A)"
     ** Verification function was not returning a true value, works now.
-    ** Displays a color distorted image of Hermann Hall
+    ** Displays an image of Hermann Hall
 '''
 
 # %% Task-4: Vizualization-----------------------------------------------------
