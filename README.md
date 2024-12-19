@@ -76,9 +76,15 @@ New orientation is: x 29.938735329380137, y 29.969811611578617, z 300.0443946888
 Check plus requirements met and shown. Both original and v2 ofadc_script_CHECKPLUS utilized the calculate_rotation as a separate imported module.
 
 ## Command and Data Handling:
-### Check Results:
+### Check Results: 
+('Electrical Power Subsystem', 'BATTERY CHARGE MODE', 0.0)
+('Attitude Control Subsystem', 'SAFE MODE', -1.0)
+Error processing command 'RCS:INVALID:0': Invalid command format. Expected format: SUBSYSTEM:COMMAND:PARAMETER
 
 ### Check Plus Results:
+('Electrical Power Subsystem', 'BATTERY_CHARGE_MODE', 0)
+('Attitude Control Subsystem', 'SAFE_MODE', 1)
+Error processing command 'RCS:INVALID:0': Invalid command format. Expected format: SUBSYSTEM:COMMAND:PARAMETER
 
 ## Electrical Power Subsystem:
 ### Check Results:
