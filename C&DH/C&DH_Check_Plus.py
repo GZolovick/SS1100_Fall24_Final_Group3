@@ -1,7 +1,6 @@
 # The following code segment is based off of the prompt in Microsoft Copilot to
 #   "can you write an python script of command parsing and routing using the information above? (being table 7)",
 #   "please allow it to read lowercase versions of the subsystems as well"
-#   "for this code, please have add a response for errors in the print:" for the a previous version where it gave error messages outside the print statement
 #   and then under the framework for the tasks and evaluation. I then had it integrate the dictionary written for the check plus. 
 
 import re
