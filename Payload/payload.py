@@ -67,6 +67,7 @@ def main(red, green, blue):
 
 # %% Task-4b: Display Created Image--------------------------------------------
 
+print("\nCheck Task: Combined RGB Image")
 RGB_output = main("red.csv", "green.csv", "blue.csv")
 
 # %%---------------------------------------------------------------------------
