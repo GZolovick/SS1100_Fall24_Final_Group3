@@ -35,34 +35,10 @@ def combine_RGB(red, green, blue):
     verification = dimension_verification(red_csv, green_csv, blue_csv)
     if  verification == True:
         #print("Dimensions are verified")
-        RGB_image = np.stack((red_csv, green_csv, blue_csv), axis=2).astype(np.uint8)
+        RGB_image = np.stack((red_csv, green_csv, blue_csv), axis=2)
         return RGB_image
     else:
         print("ERROR: There is a combination or verification error.")
-
-# %% Task-4: Vizualization-----------------------------------------------------
-
-# create a visualization for provided combined RGB_image data. To be used
-# in-tandem with combine_RGB to verify data integrity and combine csv's.
-def display_RGB_image(RGB_image):
-    plt.imshow(RGB_image)
-    plt.show()
-
-# standalone test of display_RGB_image
-# display_RGB_image(blue_csv)                  # Visualize a single color band
-
-'''
-Main function takes three input csv's for each RGB color band and
-produces a single output RGB image.
-
-Inputs:
-    Input-1: Name of csv for red color band (str)    -> IE: "red.csv"
-    Input-2: Name of csv for green color band (str)  -> IE: "green.csv"
-    Input-3: Name of csv for blue color band (str)   -> IE: "blue.csv"
-'''
-def main(red, green, blue):
-    RGB_image = combine_RGB(red, green, blue)
-    return display_RGB_image(RGB_image)
 
 # %% Task-4: Vizualization-----------------------------------------------------
 
