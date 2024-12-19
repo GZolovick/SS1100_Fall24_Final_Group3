@@ -72,7 +72,8 @@ Current orientation is: x 33.729713015492734, y 31.837829601837, z 297.297309409
 New orientation is: x 29.938735329380137, y 29.969811611578617, z 300.044394688855
 
 ### Check Plus Results:
-Check plus requirements met and shown. Both original and v2 of adc_script_CHECKPLUS utilized the calculate_rotation as a separate imported module.
+Check plus requirements met and shown. Both original and v2 ofadc_script_CHECKPLUS utilized the
+calculate_rotation as a separate imported module.
 
 ## Command and Data Handling:
 ### Check Results:
@@ -112,7 +113,10 @@ You have 73.8 Kilojoules available for battery charging.
 ## Q2: Most Challanging Section:
 
 ## Q3: Generative AI:
-ACS: after making a functioning code framework, ChatGPT 4o was used to 
+ACS: after making a functioning code framework that met project requirements, ChatGPT 4o
+suggestions were used to create a singular function that could be used as a console command
+to change the satellite orientation rather than making in-line changes to code itself. Full
+details and prompt given to ChatGPT notated at the beginning of adc_script_CHECKPLUS_v2.
 
 ## Q4: Other Resources Used: 
 
