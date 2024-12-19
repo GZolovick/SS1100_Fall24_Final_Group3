@@ -31,55 +31,71 @@ Remote Sensing Payload: Data ingestion, radiance to reflectance conversion, and 
 # Check Results:
 Firing a Thruster for 5 seconds with flow rate of 0.02 kg/s and exhaust velocity of 1000 m/s.\
 Thruster 1 is within limits.\
-Velocity change is 0.2 m/s.\
+Velocity change is 0.2 m/s.
 
 Firing a Thruster for 3 seconds with flow rate of 0.06 kg/s and exhaust velocity of 1000 m/s.\
 Thruster 2 exceeded Flow Rate by 0.01 kg/s.\
-Velocity change is 0.36 m/s.\
+Velocity change is 0.36 m/s.
 
 Firing a Thruster for 10 seconds with flow rate of 0.05 kg/s and exhaust velocity of 2000 m/s.\
 Thruster 3 is within limits.\
-Velocity change is 2 m/s.\
+Velocity change is 2 m/s.
 
 # Check Plus Results:
 Thruster 1 is within limits.\
 Thruster 2 is within limits.\
 Thruster 3 is within limits.\
-Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction.\
+Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction.
 
 ### Thermal Control Subsystem:
-## Check Results:
+# Check Results:
 
-## Check Plus Results:
+# Check Plus Results:
 
 ### Attitude Control Subsystem:
-## Check Results:
+# Check Results:
 
-## Check Plus Results:
+# Check Plus Results:
 
 ### Command and Data Handling:
-## Check Results:
+# Check Results:
 
-## Check Plus Results:
+# Check Plus Results:
 
 ### Electrical Power Subsystem:
-## Check Results:
+# Check Results:
+Voltage = 25V, Current = 10A, Time = 3600s.\
+The power output is 250 Watts.\
+You have 900 Kilojoules available for battery charging.
 
-## Check Plus Results:
+Voltage = 30V, Current = 8A, Time = 1800s.\
+The power output is 224 Watts.\
+You have 403.2 Kilojoules available for battery charging.
+
+Voltage = 15V, Current = 12A, Time = 7200s.\
+The power output is 150 Watts.\
+You have 1.08 Megajoules available for battery charging.
+
+# Check Plus Results:
+[(22,7,300), (40,7,60), (25,10,200), (10,4,600)].\
+You have 131.96 Kilojoules available for battery charging.
+
+[(0,7,300), (30,10,60), (28,10,200), (10,10,10)].\
+You have 73.8 Kilojoules available for battery charging.
 
 ### Remote Sensing Payload:
-## Check Results:
+# Check Results:
 
-## Check Plus Results:
+# Check Plus Results:
 
 ### Questions for Writeup:
 
-## Q1: Experience collaborating:
+# Q1: Experience collaborating:
 
-## Q2: Most Challanging Section:
+# Q2: Most Challanging Section:
 
-## Q3: Generative AI:
+# Q3: Generative AI:
 
-## Q4: Other Resources Used: 
+# Q4: Other Resources Used: 
 
-## Q5: Improvements for Future Iterations:
+# Q5: Improvements for Future Iterations:
