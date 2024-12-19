@@ -29,23 +29,23 @@ Remote Sensing Payload: Data ingestion, radiance to reflectance conversion, and 
 #### Results:
 ### Reaction Control Subsystem:
 # Check Results:
-#Firing a Thruster for 5 seconds with flow rate of 0.02 kg/s and exhaust velocity of 1000 m/s
-#Thruster 1 is within limits
-#Velocity change is 0.2 m/s
+Firing a Thruster for 5 seconds with flow rate of 0.02 kg/s and exhaust velocity of 1000 m/s.\
+Thruster 1 is within limits.\
+Velocity change is 0.2 m/s.\
 
-#Firing a Thruster for 3 seconds with flow rate of 0.06 kg/s and exhaust velocity of 1000 m/s
-#Thruster 2 exceeded Flow Rate by 0.01 kg/s
-#Velocity change is 0.36 m/s
+Firing a Thruster for 3 seconds with flow rate of 0.06 kg/s and exhaust velocity of 1000 m/s.\
+Thruster 2 exceeded Flow Rate by 0.01 kg/s.\
+Velocity change is 0.36 m/s.\
 
-#Firing a Thruster for 10 seconds with flow rate of 0.05 kg/s and exhaust velocity of 2000 m/s
-#Thruster 3 is within limits
-#Velocity change is 2 m/s
+Firing a Thruster for 10 seconds with flow rate of 0.05 kg/s and exhaust velocity of 2000 m/s.\
+Thruster 3 is within limits.\
+Velocity change is 2 m/s.\
 
 # Check Plus Results:
-#Thruster 1 is within limits
-#Thruster 2 is within limits
-#Thruster 3 is within limits
-#Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction
+Thruster 1 is within limits.\
+Thruster 2 is within limits.\
+Thruster 3 is within limits.\
+Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction.\
 
 ### Thermal Control Subsystem:
 ## Check Results:
