@@ -1,6 +1,6 @@
-# The following code segment is based off of the prompt in Microsoft Copilot to
+# # The following code segment is based off of the prompt in Microsoft Copilot to
 #   "can you write an python script of command parsing and routing using the information above? (being table 7)",
-#   "please allow it to read lowercase versions of the subsystems as well"
+
 
 import re
 
@@ -66,6 +66,7 @@ def parse_command(command_str):
 
         subsystem_code, command_code, parameter = match.groups()
 
+        # # The following code segment is based off of the prompt in Microsoft Copilot to
         # Convert subsystem code to uppercase to match dictionary keys
         subsystem_code = subsystem_code.upper()
 
