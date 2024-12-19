@@ -46,6 +46,7 @@ def combine_RGB(red, green, blue):
 # in-tandem with combine_RGB to verify data integrity and combine csv's.
 def display_RGB_image(RGB_image):
     plt.imshow(RGB_image)
+    plt.axis("off")
     plt.show()
 
 # standalone test of display_RGB_image
