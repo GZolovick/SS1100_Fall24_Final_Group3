@@ -1,5 +1,6 @@
 # SS1100: Intro to Programming for Space Applications
 ## Final Project: Programming Spacecraft Systems
+## Results and Responses at the Bottom of the Page
 
 ### Assignment
 - **Instructions**: Work in groups of four to complete the steps outlined in the project instructions.
@@ -23,3 +24,47 @@ Attitude Control Subsystem (ACS): Attitude determination and rotation calculatio
 Command and Data Handling (C&DH): Command parsing and routing.\
 Electrical Power Subsystem (EPS): Power budget analysis and battery charging calculations.\
 Remote Sensing Payload: Data ingestion, radiance to reflectance conversion, and image rescaling.
+
+
+#### Results:
+### Reaction Control Subsystem:
+## Check Results:
+
+## Check Plus Results:
+
+### Thermal Control Subsystem:
+## Check Results:
+
+## Check Plus Results:
+
+### Attitude Control Subsystem:
+## Check Results:
+
+## Check Plus Results:
+
+### Command and Data Handling:
+## Check Results:
+
+## Check Plus Results:
+
+### Electrical Power Subsystem:
+## Check Results:
+
+## Check Plus Results:
+
+### Remote Sensing Payload:
+## Check Results:
+
+## Check Plus Results:
+
+### Questions for Writeup:
+
+## Q1: Experience collaborating:
+
+## Q2: Most Challanging Section:
+
+## Q3: Generative AI:
+
+## Q4: Other Resources Used: 
+
+## Q5: Improvements for Future Iterations:
