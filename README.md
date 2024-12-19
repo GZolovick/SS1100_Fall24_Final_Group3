@@ -112,9 +112,7 @@ You have 73.8 Kilojoules available for battery charging.
 Image files saved in the Payload folder titled RGB_output.jpg and RGB_output_CHECK.png.
 
 ### Check Plus Results:
-Image file saved in the Payload folder titled RGB_output_CHECKPLUS.png. Console output messages below:
-CheckPlus Task: Saving converted RGB image
-Image saved successfully to: C:\Users\Jake\OneDrive - Naval Postgraduate School\0) Coursework\SS1100\Final Project\Payload\RGB_converted_CHECKPLUS.png
+Image file saved in the Payload folder titled RGB_output_CHECKPLUS.png. Console output messages are shown in the screenshot titled Payload_CHECKPLUS_Console_Output.jpg.
 
 # Questions for Writeup:
 
