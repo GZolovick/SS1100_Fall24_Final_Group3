@@ -22,15 +22,20 @@ def dimension_verification(red, green, blue):
         verification = True
         return (verification)
 
-
 # %% Task-3: Combine RGB Bands-------------------------------------------------
 
 # test if dimensions of inputs are equal, then combines into one RGB image
 def combine_RGB(red, green, blue):
-    verification = dimension_verification(red, green, blue)
+    
+    # load csv data files
+    red_csv = load_csv_data(red)
+    green_csv = load_csv_data(green)
+    blue_csv = load_csv_data(blue)
+    
+    verification = dimension_verification(red_csv, green_csv, blue_csv)
     if  verification == True:
         #print("Dimensions are verified")
-        RGB_image = np.stack((red, green, blue), axis=2).astype(np.uint8)
+        RGB_image = np.stack((red_csv, green_csv, blue_csv), axis=2).astype(np.uint8)
         return RGB_image
     else:
         print("ERROR: There is a combination or verification error.")
