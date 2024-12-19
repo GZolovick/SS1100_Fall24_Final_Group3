@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt  # used for visualizations
 
 # %% Task-1: Load Raw RGB Input Files------------------------------------------
 
-red_csv = pd.read_csv("red.csv").values
-green_csv = pd.read_csv("green.csv").values
-blue_csv = pd.read_csv("blue.csv").values
-
+# imports csv values using pandas
+def load_csv_data(input_csv):
+    output_csv = pd.read_csv(input_csv).values
+    return output_csv
 
 # %% Task-2: Verify RGB Band Dimensions----------------------------------------
 
@@ -33,14 +33,7 @@ def combine_RGB(red, green, blue):
         RGB_image = np.stack((red, green, blue), axis=2).astype(np.uint8)
         return RGB_image
     else:
-        print("There is a combination or verification error")
-
-'''
-When run, throws the following error:
-    "self._normalize_image_array(A)"
-    ** Verification function was not returning a true value, works now.
-    ** Displays an image of Hermann Hall
-'''
+        print("ERROR: There is a combination or verification error.")
 
 # %% Task-4: Vizualization-----------------------------------------------------
 
@@ -52,7 +45,23 @@ def display_RGB_image(RGB_image):
 
 # standalone test of display_RGB_image
 # display_RGB_image(blue_csv)                  # Visualize a single color band
-display_RGB_image(combine_RGB(red_csv, green_csv, blue_csv))
+
+'''
+Main function takes three input csv's for each RGB color band and
+produces a single output RGB image.
+
+Inputs:
+    Input-1: Name of csv for red color band (str)    -> IE: "red.csv"
+    Input-2: Name of csv for green color band (str)  -> IE: "green.csv"
+    Input-3: Name of csv for blue color band (str)   -> IE: "blue.csv"
+'''
+def main(red, green, blue):
+    RGB_image = combine_RGB(red, green, blue)
+    return display_RGB_image(RGB_image)
+
+# %% Task-4b: Display Created Image--------------------------------------------
+
+main("red.csv", "green.csv", "blue.csv")
 
 # %% CheckPlus-1: Convert to Reflectance---------------------------------------
 
