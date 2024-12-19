@@ -26,9 +26,9 @@ Electrical Power Subsystem (EPS): Power budget analysis and battery charging cal
 Remote Sensing Payload: Data ingestion, radiance to reflectance conversion, and image rescaling.
 
 
-#### Results:
-### Reaction Control Subsystem:
-# Check Results:
+# Results:
+## Reaction Control Subsystem:
+### Check Results:
 Firing a Thruster for 5 seconds with flow rate of 0.02 kg/s and exhaust velocity of 1000 m/s.\
 Thruster 1 is within limits.\
 Velocity change is 0.2 m/s.
@@ -41,29 +41,29 @@ Firing a Thruster for 10 seconds with flow rate of 0.05 kg/s and exhaust velocit
 Thruster 3 is within limits.\
 Velocity change is 2 m/s.
 
-# Check Plus Results:
+### Check Plus Results:
 Thruster 1 is within limits.\
 Thruster 2 is within limits.\
 Thruster 3 is within limits.\
 Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction.
 
-### Thermal Control Subsystem:
-# Check Results:
+## Thermal Control Subsystem:
+### Check Results:
 
-# Check Plus Results:
+### Check Plus Results:
 
-### Attitude Control Subsystem:
-# Check Results:
+## Attitude Control Subsystem:
+### Check Results:
 
-# Check Plus Results:
+### Check Plus Results:
 
-### Command and Data Handling:
-# Check Results:
+## Command and Data Handling:
+### Check Results:
 
-# Check Plus Results:
+### Check Plus Results:
 
-### Electrical Power Subsystem:
-# Check Results:
+## Electrical Power Subsystem:
+### Check Results:
 Voltage = 25V, Current = 10A, Time = 3600s.\
 The power output is 250 Watts.\
 You have 900 Kilojoules available for battery charging.
@@ -76,26 +76,26 @@ Voltage = 15V, Current = 12A, Time = 7200s.\
 The power output is 150 Watts.\
 You have 1.08 Megajoules available for battery charging.
 
-# Check Plus Results:
+### Check Plus Results:
 [(22,7,300), (40,7,60), (25,10,200), (10,4,600)].\
 You have 131.96 Kilojoules available for battery charging.
 
 [(0,7,300), (30,10,60), (28,10,200), (10,10,10)].\
 You have 73.8 Kilojoules available for battery charging.
 
-### Remote Sensing Payload:
-# Check Results:
+## Remote Sensing Payload:
+### Check Results:
 
-# Check Plus Results:
+### Check Plus Results:
 
-### Questions for Writeup:
+# Questions for Writeup:
 
-# Q1: Experience collaborating:
+## Q1: Experience collaborating:
 
-# Q2: Most Challanging Section:
+## Q2: Most Challanging Section:
 
-# Q3: Generative AI:
+## Q3: Generative AI:
 
-# Q4: Other Resources Used: 
+## Q4: Other Resources Used: 
 
-# Q5: Improvements for Future Iterations:
+## Q5: Improvements for Future Iterations:
