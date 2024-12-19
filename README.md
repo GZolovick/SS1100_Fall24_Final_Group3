@@ -48,7 +48,8 @@ Thruster 3 is within limits.\
 Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction.
 
 ## Thermal Control Subsystem:
-### Check Results: Example of TCS check results labeld TCS_example.png in the TCS file. 
+### Check Results:
+Example of TCS check results labeled under TCS_example.png in the TCS file. For the test the current temperature was set to 30.0 and the target temperature was set to 25.0.
 
 ### Check Plus Results:
 
