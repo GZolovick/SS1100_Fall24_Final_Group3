@@ -109,26 +109,39 @@ You have 73.8 Kilojoules available for battery charging.
 
 ## Remote Sensing Payload:
 ### Check Results:
-Image saved in payload folder titled Updated_Payload_image.jpg
+Image files saved in the Payload folder titled RGB_output.jpg and RGB_output_CHECK.png.
 
 ### Check Plus Results:
+Image file saved in the Payload folder titled RGB_output_CHECKPLUS.png. Console output messages below:
+CheckPlus Task: Saving converted RGB image
+Image saved successfully to: C:\Users\Jake\OneDrive - Naval Postgraduate School\0) Coursework\SS1100\Final Project\Payload\RGB_converted_CHECKPLUS.png
 
 # Questions for Writeup:
 
 ## Q1: Experience collaborating:
 Wright: It was very helpful to be able to distribute the load of each section, and the range of experience is helpful but I feel abashed about my lack of experience. 
 
+Staut: Having multiple people work asynchronously was helpful in getting a fresh set of eyes on particular problems that I'd hit a wall on and needed to come back to. Other group members were able to jump in and help continue the efforts where I had gotten stuck.
+
 ## Q2: Most Challanging Section:
-Wright: Payload seems to have taken up all group members bandwidth trying to convert the data to meet the stipulations. 
+Wright: Payload seems to have taken up all group member's bandwidth trying to convert the data to meet the stipulations.
+
+Staut: Concur with payload as the hardest section.
 
 ## Q3: Generative AI:
-ACS: after making a functioning code framework that met project requirements, ChatGPT 4o suggestions were used to create a singular function that could be used as a console command to change the satellite orientation rather than making in-line changes to code itself. Full details and prompt given to ChatGPT notated at the beginning of adc_script_CHECKPLUS_v2.
+ACS: after making a functioning code framework that met project requirements, ChatGPT 4o suggestions were used to create a singular function that could be used as a console command to change the satellite orientation rather than making in-line changes to the code itself. Full details and prompt given to ChatGPT notated at the beginning of adc_script_CHECKPLUS_v2.
 
 TCS: After writing the code, trying to run it, and getting several errors, I put it into ChatGPT with the prompt “Find the errors in this Python code”. I had to input the code into ChatGPT several times with the same prompt due to it not finding all the errors the first time or creating new errors. Once the code was working, I would put in back into ChatGPT to fix the errors I made while attempting to add more stuff to the code. 
 
-C&DH: After trying to put the information into a format I could read and coming up with constant errors, Copilot helped organize the information and give the required and run through a few times to get to something that could work. I tried to think of different things a person may make mistakes on and added those stipulations in, like casing or mispelling. It expedited the process of trial and error to an astounding level. 
+C&DH: After trying to put the information into a format I could read and coming up with constant errors, Copilot helped organize the information and give the required and run through a few times to get to something that could work. I tried to think of different things a person may make mistakes on and added those stipulations in, like casing or misspelling. It expedited the process of trial and error to an astounding level.
+
+Payload: ChatCPT 4o was utilized as an error handling/troubleshooting aid, which enabled the successful completion of CheckPlus requirements after the group had collective difficulty in formatting the image data and successfully saving the output image. Full details are notated within the code payload_CHECKPLUS.py.
 
 ## Q4: Other Resources Used: 
-TCS: I used Stack Overflow to learn how to create floats and to make sure I was doing the while loop correctly. I also used it to correct the errors in my f" string. 
+TCS: I used Stack Overflow to learn how to create floats and to make sure I was doing the while loop correctly. I also used it to correct the errors in my f" string.
+
+Payload: StackOverflow was used for examples on how to save image files and which libraries were required to do so. We ended up using PIL to enable image saving after having issues importing the cv2 library as some StackOverflow users suggested.
 
 ## Q5: Improvements for Future Iterations:
+
+Staut: Can't think of any, but we should put at least one item here...
