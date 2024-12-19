@@ -115,22 +115,23 @@ Inputs:
     Input-1: RGB image file to be converted (var) -> IE: payload.main output
     Input-2: k, the multiplicative scaling factor (int)
     Input-3: b, the additive scaling factor (int)
+    Input-4: file path to save the RGB_converted.jpeg image
 '''
-def main(RGB_image, k, b):
+def main(RGB_image, k, b, file_path):
     
     # convert input RGB image
     reflectance_image = radiance_to_reflectance(RGB_image, k, b)
     # rescale reflectance image
     rescaled_image = rescale(reflectance_image)
     
-    # display results and save
-    RGB_output2 = payload.display_RGB_image(rescaled_image)
-    save_image(RGB_output2, "RGB_converted", './Downloads')
+    # save image file
+    print("\nCheckPlus Task: Saving converted RGB image")
+    save_image(rescaled_image, "RGB_converted_CHECKPLUS.png", file_path)
     
     return rescaled_image
 
 # CheckPlus evaluation
-RGB_converted = main(RGB_output, 0.8, 0.1)
+RGB_converted = main(RGB_output, 0.8, 0.1, "./")
 #print(type(RGB_converted))   # expecting valid NumPy array
 #print(RGB_converted.dtype)   # expecting uint8
 #print(RGB_converted.shape)   # expecting 3-digit shape
