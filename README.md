@@ -102,6 +102,7 @@ You have 73.8 Kilojoules available for battery charging.
 
 ## Remote Sensing Payload:
 ### Check Results:
+Image saved in payload folder titled Updated_Payload_image.jpg
 
 ### Check Plus Results:
 
