@@ -108,7 +108,7 @@ def save_image(image, file_name, folder_location):
 # %% CheckPlus: Test and Evaluation--------------------------------------------
 
 '''
-Main function takes three-inputs and converts the input reflectance into
+Main function takes four-inputs and converts the input reflectance into
 radiance through the formula: image * k + b.
 
 Inputs:
@@ -131,7 +131,8 @@ def main(RGB_image, k, b, file_path):
     return rescaled_image
 
 # CheckPlus evaluation
-RGB_converted = main(RGB_output, 0.8, 0.1, "./")
+RGB_converted = main(RGB_output, 0.8, 0.1,
+                     r"C:\Users\Jake\OneDrive - Naval Postgraduate School\0) Coursework\SS1100\Final Project\Payload"
 #print(type(RGB_converted))   # expecting valid NumPy array
 #print(RGB_converted.dtype)   # expecting uint8
 #print(RGB_converted.shape)   # expecting 3-digit shape
