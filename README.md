@@ -48,7 +48,7 @@ Thruster 3 is within limits.\
 Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 0.12 m/s in the Z direction.
 
 ## Thermal Control Subsystem:
-### Check Results: Check image 
+### Check Results: Example of TCS check results labeld TCS_example.png in the TCS file. 
 
 ### Check Plus Results:
 
@@ -118,6 +118,6 @@ ACS: after making a functioning code framework that met project requirements, Ch
 TCS: After writing the code, trying to run it, and getting several errors, I put it into ChatGPT with the prompt “Find the errors in this Python code”. I had to input the code into ChatGPT several times with the same prompt due to it not finding all the errors the first time or creating new errors. Once the code was working, I would put in back into ChatGPT to fix the errors I made while attempting to add more stuff to the code. 
 
 ## Q4: Other Resources Used: 
-TCS: a.	I used Stack Overflow to learn how to create floats and to make sure I was doing the while loop correctly. I also used it to correct my f string because there were errors. 
+TCS: I used Stack Overflow to learn how to create floats and to make sure I was doing the while loop correctly. I also used it to correct the errors in my f" string. 
 
 ## Q5: Improvements for Future Iterations:
