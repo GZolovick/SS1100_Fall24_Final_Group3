@@ -132,7 +132,7 @@ def main(RGB_image, k, b, file_path):
 
 # CheckPlus evaluation
 RGB_converted = main(RGB_output, 0.8, 0.1,
-                     r"C:\Users\Jake\OneDrive - Naval Postgraduate School\0) Coursework\SS1100\Final Project\Payload"
+                     r"C:\Users\Jake\OneDrive - Naval Postgraduate School\0) Coursework\SS1100\Final Project\Payload")
 #print(type(RGB_converted))   # expecting valid NumPy array
 #print(RGB_converted.dtype)   # expecting uint8
 #print(RGB_converted.shape)   # expecting 3-digit shape
