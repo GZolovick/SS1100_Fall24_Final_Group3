@@ -49,42 +49,41 @@ Velocity change is 2.4 m/s in the X direction, 0.48 m/s in the Y direction, and 
 
 ## Thermal Control Subsystem:
 ### Check Results:
-Example of TCS check results labeled under TCS_example.png in the TCS file. For the test the current temperature was set to 30.0 and the target temperature was set to 25.0.
-
-### Check Plus Results:
+Example of TCS check results labeled under TCS_example.png in the TCS file.\
+For the test the current temperature was set to 30.0 and the target temperature was set to 25.0.
 
 ## Attitude Control Subsystem:
 ### Check Results:
 Console outputs from the final rotation/iteration of each test orientation copied below:
 
-Orientation-1: (100,200,300)
-Required orientation change is: x -0.13709187396308664, y -0.05393778647729164, z -0.07416445640626534
-Current orientation is: x 100.13709187396309, y 200.0539377864773, z 300.07416445640627
-New orientation is: x 99.99649485471485, y 199.9986209264452, z 299.9981037738621
+Orientation-1: (100,200,300).\
+Required orientation change is: x -0.13709187396308664, y -0.05393778647729164, z -0.07416445640626534.\
+Current orientation is: x 100.13709187396309, y 200.0539377864773, z 300.07416445640627.\
+New orientation is: x 99.99649485471485, y 199.9986209264452, z 299.9981037738621.
 
-Orientation-2: (0,0,0)
-Required orientation change is: x 0.01163753616780372, y 0.14572219201423664, z 0.09917204734302265
-Current orientation is: x -0.01163753616780372, y -0.14572219201423664, z -0.09917204734302265
-New orientation is: x -0.00037988244060010654, y -0.004756788821427382, z -0.003237259059026984
+Orientation-2: (0,0,0).\
+Required orientation change is: x 0.01163753616780372, y 0.14572219201423664, z 0.09917204734302265.\
+Current orientation is: x -0.01163753616780372, y -0.14572219201423664, z -0.09917204734302265.\
+New orientation is: x -0.00037988244060010654, y -0.004756788821427382, z -0.003237259059026984.
 
-Orientation-3: (3,30,300)
-Required orientation change is: x -3.7297130154927345, y -1.8378296018370008, z 2.7026905909367542
-Current orientation is: x 33.729713015492734, y 31.837829601837, z 297.29730940906325
-New orientation is: x 29.938735329380137, y 29.969811611578617, z 300.044394688855
+Orientation-3: (3,30,300).\
+Required orientation change is: x -3.7297130154927345, y -1.8378296018370008, z 2.7026905909367542.\
+Current orientation is: x 33.729713015492734, y 31.837829601837, z 297.29730940906325.\
+New orientation is: x 29.938735329380137, y 29.969811611578617, z 300.044394688855.
 
 ### Check Plus Results:
 Check plus requirements met and shown. Both original and v2 ofadc_script_CHECKPLUS utilized the calculate_rotation as a separate imported module.
 
 ## Command and Data Handling:
 ### Check Results: 
-('Electrical Power Subsystem', 'BATTERY CHARGE MODE', 0.0)
-('Attitude Control Subsystem', 'SAFE MODE', -1.0)
-Error processing command 'RCS:INVALID:0': Invalid command format. Expected format: SUBSYSTEM:COMMAND:PARAMETER
+('Electrical Power Subsystem', 'BATTERY CHARGE MODE', 0.0).\
+('Attitude Control Subsystem', 'SAFE MODE', -1.0).\
+Error processing command 'RCS:INVALID:0': Invalid command format. Expected format: SUBSYSTEM:COMMAND:PARAMETER.
 
 ### Check Plus Results:
-('Electrical Power Subsystem', 'BATTERY_CHARGE_MODE', 0)
-('Attitude Control Subsystem', 'SAFE_MODE', 1)
-Error processing command 'RCS:INVALID:0': Invalid command format. Expected format: SUBSYSTEM:COMMAND:PARAMETER
+('Electrical Power Subsystem', 'BATTERY_CHARGE_MODE', 0).\
+('Attitude Control Subsystem', 'SAFE_MODE', 1).\
+Error processing command 'RCS:INVALID:0': Invalid command format. Expected format: SUBSYSTEM:COMMAND:PARAMETER.
 
 ## Electrical Power Subsystem:
 ### Check Results:
@@ -121,6 +120,8 @@ Wright: It was very helpful to be able to distribute the load of each section, a
 
 Staut: Having multiple people work asynchronously was helpful in getting a fresh set of eyes on particular problems that I'd hit a wall on and needed to come back to. Other group members were able to jump in and help continue the efforts where I had gotten stuck.
 
+Zolovick: Primary distribution was with each person leading up one section. Collaboration occured through a signal chat communicating sticking points and brainstorming solutions. Remote sensing was somewhat more difficult and we worked on that in a more collaborative setting, with different people making adjustments to the program on Github.
+
 ## Q2: Most Challanging Section:
 Wright: Payload seems to have taken up all group member's bandwidth trying to convert the data to meet the stipulations.
 
@@ -138,8 +139,10 @@ Payload: ChatCPT 4o was utilized as an error handling/troubleshooting aid, which
 ## Q4: Other Resources Used: 
 TCS: I used Stack Overflow to learn how to create floats and to make sure I was doing the while loop correctly. I also used it to correct the errors in my f" string.
 
+EPS: I used several MATLAB forums to figure our the best way to handle the check-plus tuples in MATLAB.
+
 Payload: StackOverflow was used for examples on how to save image files and which libraries were required to do so. We ended up using PIL to enable image saving after having issues importing the cv2 library as some StackOverflow users suggested.
 
 ## Q5: Improvements for Future Iterations:
 
-Staut: Can't think of any, but we should put at least one item here...
+Recommend that future iterations integrate this style of project throughout the course. The "space application" of this assignment made the course feel very practical and it would have been interesting if the labs and final project were baked into a wholistic product. This could be done in the form of taking one of the subsections and making it a working code over the semster, each week adding a new functionality taught that week.
