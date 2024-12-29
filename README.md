@@ -2,6 +2,8 @@
 ## Final Project: Programming Spacecraft Systems
 ## Results and Responses at the Bottom of the Page
 
+### Staut	Wright	Zolovick	Donnelly
+
 ### Assignment
 - **Instructions**: Work in groups of four to complete the steps outlined in the project instructions.
 - **Submission**: All of your submission will go here in this repository, to include this README file to hold your writeup.
