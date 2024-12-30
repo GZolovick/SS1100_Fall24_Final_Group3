@@ -148,3 +148,27 @@ Payload: StackOverflow was used for examples on how to save image files and whic
 ## Q5: Improvements for Future Iterations:
 
 Recommend that future iterations integrate this style of project throughout the course. The "space application" of this assignment made the course feel very practical and it would have been interesting if the labs and final project were baked into a wholistic product. This could be done in the form of taking one of the subsections and making it a working code over the semster, each week adding a new functionality taught that week.
+
+# Instructor Comments
+
+### ADC
+In your adc_script_CHECKPLUS.py, you might have been able to use the "tolerance_check(current_orientation, desired_orientation) == True" line as the condition of the While statement. In other words, instead of having to Break out of it when it was found to be true, placing that statement after the While at the top of the loop. You'd have to change the True/False output of the function to make it work, but it would be a bit more compact.
+
+### C&DH
+Interesting use of the regular expressions module to search for the subsystem type and commands. In your subsequent error checking in C&DH.py, you also could have streamlined things by having an if...elif...elif...else construction that checked the three parts of the command sequence against their respective error checking blocks.
+Finally, just be careful with using special characters in script names. In this case, you would be unable to import the two scripts from this section as modules in other code, as each contains an ampersand "&" character. Windows doesn't care when you're just saving it as a file, but Python would were you to try and use it elsewhere.
+
+### TCS
+Some of the formatting of comments is a bit difficult to read - generally, you'd indent them at the same level as the code you are referencing as to make it easier to read. It also wasn't inserted into the thermal_control.py script as specified in the instructions, so I wasn't able to evaluate if your code worked in that setting.
+
+### EPS
+Very creative and interesting code. Particularly like the conversion to change SI units.
+
+### RCS
+Good inclusion of Matlab here - you might have been the only group to use Matlab on more than one subsystem. Your multiple if....end constructions could have been merged into one longer if..elseif...elseif...end, but that's trivial. The function itself is succinct, and your organization of the code is great even if Matlab isn't always as user friendly as Python.
+
+### Payload
+This one can definitely be tricky, but these types of operations are very common in image processing tasks like you may encounter in AI/ML projects. Cleaning up each image ( preprocessing) so that it matches the specifications is important to making sure that bad data doesn't get passed into the model.
+
+### Github
+Good collaboration in the repository; I'm just a bit worried that some of the pull requests didn't get completed and that there might be code you meant to have in the Main still waiting to be merged. It's good practice to close out branches completely before moving on. Great writeup and feedback; apprecaite the idea about including this project into earlier parts of the course. Also seems like while GenAI tools were helpful, you still ended up having to collaborate and troubleshoot as a group on the Payload task (which is great!)
